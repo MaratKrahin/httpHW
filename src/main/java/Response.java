@@ -5,13 +5,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class Response {
 
     @JsonProperty("all")
-    private List<JsonParser> cats;
+    private List<CatCatcher> cats;
 
-    public List<JsonParser> getAll() {
+    public List<CatCatcher> getAll() {
         return cats;
     }
 
-    public void setAll(List<JsonParser> cat) {
+    public void setAll(List<CatCatcher> cat) {
         this.cats = cat;
     }
 

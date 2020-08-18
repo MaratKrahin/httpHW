@@ -1,6 +1,6 @@
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class JsonParser {
+public class CatCatcher {
 
     @JsonProperty("_id")
     private String id;
